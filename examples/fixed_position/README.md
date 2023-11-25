@@ -36,7 +36,7 @@ sudo python sender.py
 Dummy Overt Traffic:
 -> muss mehrmals ausgeführt werden, um mehrere Pakete zu simulieren
 ```
-echo "1234567890abcdefg" | nc -uc <receiver-ip> <ziel-port>
+echo "1234567890abcdefg" | nc -uC <receiver-ip> <ziel-port>
 ```
 
 ## Hinweis zu nft-Regeln
