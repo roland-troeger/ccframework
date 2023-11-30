@@ -29,3 +29,5 @@ pip install -e framework[netfilter-queue]
 ## Benutzung
 
 siehe Beispiele unter `examples/`
+
+**ACHTUNG**: Die Beispiele verwenden `gnu-netcat`, nicht das verbreitetere `openbsd-netcat`. Das bietet die Option `-c`, um Verbindungen nach Ende der zu sendenden Daten zu beenden. Nutzer von `openbsd-netcat` können stattdessen die Option`-q0` verwenden.
